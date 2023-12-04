@@ -80,7 +80,7 @@ li{
         font-size: 40px;
         justify-content: space-between;
     }
-    div > img{
+    #1 div > img{
         max-width: 400px;
         max-height: 400px;
         border-radius: 100%;
@@ -89,10 +89,13 @@ li{
         border-width: 10px;
         padding-left: 60px;
         padding-right: 60px;
-    }
-    body > article > header > nav > ul {
         display: flex;
+        flex-direction: column;
+    }
+    body > article > header > div > nav > ul {
+        display: contents;
         align-items: end;
+
         
     }
     footer > nav > ul{
@@ -100,6 +103,18 @@ li{
         justify-content: flex-end;
         
     }
+    body > article > header > div > #1 div  > p{
+        display: flex;
+        flex-direction: column;
+    }
+    body > article > header > div > nav > ul a{
+        text-decoration: none;
+        color: black;
+        display: flex;
+        flex-direction: row;
+
+    }
+
     
     
 
